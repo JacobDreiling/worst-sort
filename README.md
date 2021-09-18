@@ -1,7 +1,7 @@
 # worst-sort
 Python implementation of Miguel Lerma's infamous "worstsort" algorithm. Here is the original paper: https://arxiv.org/abs/1406.1077
 
-In order to explain worstsort, a helper function called badsort is defined as followed:
+In order to explain worstsort, a helper function called badsort is defined as follows:
 - If the recursion depth, k, equals zero, return bubblesort of the list L.
 - Otherwise, let P be the list of all permutations of L. Return the first item of badsort(P, k-1), i.e. the sorted list L.
 
